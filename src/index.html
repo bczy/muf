@@ -45,7 +45,7 @@
                 const audioContext = new AudioContext();
 
                 const request = new XMLHttpRequest();
-                request.open("GET","baygon.mp3",true);
+                request.open("GET","assets/baygon.mp3",true);
                 request.responseType = "arraybuffer";
                 request.onload = function() {
                     audioContext.decodeAudioData(request.response,onDecoded);
@@ -65,11 +65,11 @@
                     var theta = 0.0;
                     var f = 0;
                     var logo = new Image();
-                    logo.src = "logo.png";
+                    logo.src = "assets/logo.png";
                     var msg1 = new Image();
-                    msg1.src = "1.png";
+                    msg1.src = "assets/1.png";
                     var msg2 = new Image();
-                    msg2.src = "2.png";
+                    msg2.src = "assets/2.png";
 
                     var canvas = document.getElementById("canvas");
                     var ctx = canvas.getContext('2d');

@@ -1,4 +1,6 @@
 muf
 ===
 
-Wild compo made for paris js 2012 : canvas / three.js 
+Wild compo made for ParisJS 2012 : 2d native canvas / three.js
+
+[Online version](http://bczy.github.io/muf/)
